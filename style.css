@@ -1,8 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
     display: flex;
     flex-direction: column;
-    font-family: Roboto, sans-serif;
+    font-family: "Monserrat", sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .strong-blue {
@@ -13,3 +28,41 @@ body {
 .quote-section {
     background-color: #E5E7EB ;
 }
+
+img {
+    width: 200px;
+    height: 130px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+/*header */
+
+.header{
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 250px;
+}
+
+.header p {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+
