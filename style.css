@@ -201,3 +201,12 @@ button {
     padding: 10px 40px;
     font-size: 16px;
 }
+
+/* footer */
+
+.footer-text {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
