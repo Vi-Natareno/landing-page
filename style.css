@@ -35,12 +35,7 @@ button {
     background-color: #1F2937;
 }
 
-.quote-section {
-    background-color: #E5E7EB ;
-}
-
-
-.container {
+.main-container {
     display: flex;
     flex-direction: column;
 }
@@ -103,7 +98,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    height: 500px;
     margin: 0 250px;
 }
 
@@ -140,4 +135,32 @@ button {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+}
+
+/* quote-section block */
+
+.quote-section {
+    
+    background-color: #E5E7EB ;
+    height: 500px;
+}
+
+.quote-container{
+    margin: 100px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-text {
+    color: #1f2937d3;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-sign {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: end;
 }
